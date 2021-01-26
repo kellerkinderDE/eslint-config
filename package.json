@@ -1,0 +1,41 @@
+{
+  "name": "@kellerkinder/eslint-config",
+  "version": "0.1.0",
+  "description": "Kellerkinder ESLint configuration",
+  "main": "index.js",
+  "keywords": [
+    "kellerkinder",
+    "k10r",
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
+  ],
+  "author": "Kellerkinder GmbH",
+  "contributors": [
+    {
+      "name": "Rico Herwig",
+      "email": "r.herwig@kellerkinder.de"
+    }
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.2.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7.2.0",
+    "eslint-plugin-import": ">= 2.22.1"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kellerkinderDE/eslint-config/issues"
+  },
+  "homepage": "https://github.com/kellerkinderDE/eslint-config"
+}
