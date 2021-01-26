@@ -1,0 +1,1 @@
+# Kellerkinder ESLint Config
