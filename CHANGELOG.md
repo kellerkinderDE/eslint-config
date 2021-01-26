@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.0] - 2021-01-26
+### Added
+- Extend documentation on using this package
+
 ## [0.2.0] - 2021-01-26
 ### Added
 - Documentation on installation and usage
@@ -15,5 +19,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Basic implementation based on AirBnB ESLint configuration
 
 [Unreleased]: https://github.com/kellerkinderDE/eslint-config/compare/0.2.0...HEAD
+[0.3.0]: https://github.com/kellerkinderDE/eslint-config/compare/0.2.0...0.3.0
 [0.2.0]: https://github.com/kellerkinderDE/eslint-config/compare/0.1.0...0.2.0
 [0.1.0]: https://github.com/kellerkinderDE/eslint-config/releases/tag/0.1.0

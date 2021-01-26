@@ -22,7 +22,16 @@ $ npm i -D eslint eslint-plugin-import @kellerkinder/eslint-config
 ```
 
 ## Usage
-You can execute eslint by running the following script:
+You can use this configuration by creating an `.eslintrc.json` inside your
+project's root directory that is extending this configuration.
+
+```json
+{
+    "extends": "@kellerkinder/eslint-config"
+}
+```
+
+You can now execute eslint by running the following script:
 
 ```bash
 $ npx eslint src/
