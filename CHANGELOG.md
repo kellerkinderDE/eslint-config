@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0-rc.0] - 2021-01-27
+### Added
+- Finalize overrides for remaining rules
+
 ## [0.4.0] - 2021-01-27
 ### Added
 - Implement overrides for best-practices and ES6 style
@@ -22,7 +26,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Basic implementation based on AirBnB ESLint configuration
 
-[Unreleased]: https://github.com/kellerkinderDE/eslint-config/compare/0.4.0...HEAD
+[Unreleased]: https://github.com/kellerkinderDE/eslint-config/compare/1.0.0-rc.0...HEAD
+[0.4.0]: https://github.com/kellerkinderDE/eslint-config/compare/0.4.0...1.0.0-rc.0
 [0.4.0]: https://github.com/kellerkinderDE/eslint-config/compare/0.3.0...0.4.0
 [0.3.0]: https://github.com/kellerkinderDE/eslint-config/compare/0.2.0...0.3.0
 [0.2.0]: https://github.com/kellerkinderDE/eslint-config/compare/0.1.0...0.2.0
