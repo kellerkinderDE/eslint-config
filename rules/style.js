@@ -22,5 +22,5 @@ module.exports = {
             flatTernaryExpressions: false,
             ignoreComments: false
         }],
-    }
-}
+    },
+};

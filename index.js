@@ -1,7 +1,7 @@
-const style = require.resolve('./rules/style');
-
 const rules = [
     './rules/style',
+    './rules/best-practices',
+    './rules/es6',
 ].map(file => require.resolve(file));
 
 module.exports = {
