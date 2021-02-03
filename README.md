@@ -6,8 +6,6 @@ This package provides the Kellerkinder ESLint configuration for vanilla
 JS. It is based on the [AirBnB Configuration](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
 with slight alterations.
 
-> :warning: This is a pre-release, so use it with caution.
-
 ## Requirements
 This config has been developed and tested with the following requirements:
 * NodeJS >= 12

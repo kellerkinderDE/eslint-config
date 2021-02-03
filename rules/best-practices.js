@@ -13,16 +13,7 @@ module.exports = {
         'no-loop-func': 'warn',
         'no-new': 'warn',
         'no-new-func': 'warn',
-        'no-param-reassign': ['warn', {
-            props: true,
-            ignorePropertyModificationsFor: [
-                'acc',
-                'accumulator',
-                'res',
-                'result',
-                'response',
-            ],
-        }],
+        'no-param-reassign': 'off',
         'no-return-await': 'warn',
         'no-script-url': 'warn',
         'no-useless-catch': 'warn',

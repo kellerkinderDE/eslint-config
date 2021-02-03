@@ -22,5 +22,6 @@ module.exports = {
             flatTernaryExpressions: false,
             ignoreComments: false
         }],
+        'no-underscore-dangle': 'off',
     },
 };
