@@ -9,6 +9,7 @@ module.exports = {
         'no-else-return': ['warn', { allowElseIf: false }],
         'no-fallthrough': 'off',
         'vars-on-top': 'off',
+        'max-len': 'off',
         'no-extra-bind': 'warn',
         'no-loop-func': 'warn',
         'no-new': 'warn',

@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0-rc.2] - 2021-02-04
+### Changed
+- Rule `max-len` was turned off
+- Rule `func-names` was turned off
+
 ## [1.0.0-rc.1] - 2021-02-03
 ### Changed
 - Rule `no-parameter-reassign` was turned off
@@ -31,7 +36,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Basic implementation based on AirBnB ESLint configuration
 
-[Unreleased]: https://github.com/kellerkinderDE/eslint-config/compare/1.0.0-rc.1...HEAD
+[Unreleased]: https://github.com/kellerkinderDE/eslint-config/compare/1.0.0-rc.2...HEAD
+[1.0.0-rc.2]: https://github.com/kellerkinderDE/eslint-config/compare/1.0.0-rc.1...1.0.0-rc.2
 [1.0.0-rc.1]: https://github.com/kellerkinderDE/eslint-config/compare/1.0.0-rc.0...1.0.0-rc.1
 [1.0.0-rc.0]: https://github.com/kellerkinderDE/eslint-config/compare/0.4.0...1.0.0-rc.0
 [0.4.0]: https://github.com/kellerkinderDE/eslint-config/compare/0.3.0...0.4.0

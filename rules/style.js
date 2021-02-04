@@ -23,5 +23,6 @@ module.exports = {
             ignoreComments: false
         }],
         'no-underscore-dangle': 'off',
+        'func-names': 'off',
     },
 };
