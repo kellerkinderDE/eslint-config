@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2021-02-05
+### Changed
+- `no-plusplus` rule disabled
+- `import/no-extraneous-dependencies` rule disabled
+- `no-use-before-define` rule disabled for function declarations
+- `no-mixed-operators` rule severity reduced to warning level
+- `consistent-return` rule severity reduced to warning level
+
 ## [1.0.0-rc.4] - 2021-02-05
 ### Removes
 - GPR publish workflow

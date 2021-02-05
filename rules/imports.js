@@ -4,5 +4,6 @@ module.exports = {
         'import/named': 'off',
         'import/extensions': 'off',
         'import/no-relative-parent-imports': 'off',
+        'import/no-extraneous-dependencies': 'off',
     },
 };
