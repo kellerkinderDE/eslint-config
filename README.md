@@ -46,6 +46,13 @@ $ npx eslint src/ --fix
 Alternatively, refer to your IDE's documentation to find out, if and how ESLint
 is integrated.
 
+## Troubleshooting
+
+### `Linter` is not a constructor
+This error is known to be caused by an empty `.eslintignore` file.
+To solve this, either make sure that your `.eslintignore` contains at
+least one entry or is removed entirely.
+
 ## Changelog
 This project adheres to [Semantic Versioning](https://semver.org/). 
 Please refer to the [CHANGELOG.md](CHANGELOG.md) for detailed changes and
