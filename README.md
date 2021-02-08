@@ -46,6 +46,21 @@ $ npx eslint src/ --fix
 Alternatively, refer to your IDE's documentation to find out, if and how ESLint
 is integrated.
 
+### Babel Configuration
+If you are using babel in your project, you can provide ESLint
+with your own configuration file, by adding this section to your
+ESLint config:
+
+```json
+{
+  "parserOptions": {
+      "babelOptions": {
+          "configFile": "path/to/your/.babelrc"
+      }
+  }
+}
+```
+
 ## Troubleshooting
 
 ### `Linter` is not a constructor

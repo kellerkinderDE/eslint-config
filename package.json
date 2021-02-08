@@ -24,6 +24,10 @@
     }
   ],
   "dependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/eslint-parser": "^7.12.13",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
     "eslint-config-airbnb-base": "^14.2.1"
   },
   "peerDependencies": {

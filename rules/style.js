@@ -4,7 +4,6 @@ module.exports = {
             SwitchCase: 1,
             VariableDeclarator: 1,
             outerIIFEBody: 1,
-            // MemberExpression: null,
             FunctionDeclaration: {
                 parameters: 1,
                 body: 1

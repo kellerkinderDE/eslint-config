@@ -13,7 +13,16 @@ module.exports = {
         'eslint-config-airbnb-base',
         ...rules,
     ],
+    env: {
+        browser: true,
+        node: true,
+    },
     globals: {
         Shopware: true,
+    },
+    parser: '@babel/eslint-parser',
+    parserOptions: {
+        ecmaVersion: 2020,
+        sourceType: 'module',
     },
 };
