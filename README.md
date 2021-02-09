@@ -68,6 +68,18 @@ This error is known to be caused by an empty `.eslintignore` file.
 To solve this, either make sure that your `.eslintignore` contains at
 least one entry or is removed entirely.
 
+## Publishing
+In order to publish a new version of this package on npm, follow
+these steps:
+
+1. Bump the version field inside the [package.json](package.json)
+2. Create an entry inside the [CHANGELOG.md](CHANGELOG.md)
+3. Push your code to `main`
+4. Tag your commit with the respective version
+5. Create a Github release
+
+Now, Github Actions will build and publish the new version on npm.
+
 ## Changelog
 This project adheres to [Semantic Versioning](https://semver.org/). 
 Please refer to the [CHANGELOG.md](CHANGELOG.md) for detailed changes and
