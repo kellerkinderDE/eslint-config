@@ -61,6 +61,10 @@ ESLint config:
 }
 ```
 
+By default, this configuration comes with babel support for 
+[class properties](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties).
+So unless other babel features are required, you can safely omit this part of the configuration.
+
 ## Troubleshooting
 
 ### `Linter` is not a constructor
