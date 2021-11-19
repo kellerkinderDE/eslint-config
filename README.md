@@ -16,7 +16,7 @@ This config has been developed and tested with the following requirements:
 In order to use this configuration, run the following scripts in your NodeJS project:
 
 ```bash
-$ npm i -D eslint eslint-plugin-import @kellerkinder/eslint-config
+npm i -D eslint eslint-plugin-import @kellerkinder/eslint-config
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ project's root directory that is extending this configuration.
 You can now execute eslint by running the following script:
 
 ```bash
-$ npx eslint src/
+npx eslint src/
 ```
 
 The `src/` directory can be replaced with the directory or file you want to lint.
@@ -40,7 +40,7 @@ The `src/` directory can be replaced with the directory or file you want to lint
 If you want ESLint to try to fix the errors it found, execute the following command:
 
 ```bash
-$ npx eslint src/ --fix
+npx eslint src/ --fix
 ```
 
 Alternatively, refer to your IDE's documentation to find out, if and how ESLint
@@ -64,6 +64,19 @@ ESLint config:
 By default, this configuration comes with babel support for 
 [class properties](https://babeljs.io/docs/en/babel-plugin-proposal-class-properties).
 So unless other babel features are required, you can safely omit this part of the configuration.
+
+### TypeScript
+If you are working with a TypeScript codebase, you want to change your `.eslintrc.json` to extend
+the `@kellerkinder/eslint-config/typescript` config instead, making it look like this:
+
+```json
+{
+    "extends": "@kellerkinder/eslint-config/typescript"
+}
+```
+
+This configuration contains all the rules from the default configuration and extends it
+by some TypeScript-specific rules.
 
 ## Troubleshooting
 
