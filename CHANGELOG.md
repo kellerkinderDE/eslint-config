@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.0.0] - 2022-08-06
+### Added
+- Support for Vue 3 via `@kellerkinder/eslint-config/vue`
+- Vue 3 ruleset based on community and library best-practices
+
 ## [3.0.0-beta.1] - 2022-08-06
 ### Added
 - Support for Vue 3
@@ -83,7 +88,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Basic implementation based on AirBnB ESLint configuration
 
-[Unreleased]: https://github.com/kellerkinderDE/eslint-config/compare/2.2.0...HEAD
+[Unreleased]: https://github.com/kellerkinderDE/eslint-config/compare/3.0.0...HEAD
+[3.0.0]: https://github.com/kellerkinderDE/eslint-config/compare/3.0.0-beta.1...3.0.0
 [3.0.0-beta.1]: https://github.com/kellerkinderDE/eslint-config/compare/2.2.0...3.0.0-beta.1
 [2.2.0]: https://github.com/kellerkinderDE/eslint-config/compare/2.1.0...2.2.0
 [2.1.0]: https://github.com/kellerkinderDE/eslint-config/compare/2.0.0...2.1.0
