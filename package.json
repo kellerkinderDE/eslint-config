@@ -1,6 +1,6 @@
 {
   "name": "@kellerkinder/eslint-config",
-  "version": "2.2.0",
+  "version": "3.0.0-beta.1",
   "description": "Kellerkinder ESLint configuration",
   "main": "index.js",
   "keywords": [
@@ -30,8 +30,11 @@
     "@babel/plugin-proposal-class-properties": "^7.14.5",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.26.0"
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "vue-eslint-parser": "^9.0.3"
   },
   "peerDependencies": {
     "eslint": ">= 7.2.0"

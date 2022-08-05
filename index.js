@@ -11,6 +11,8 @@ const rules = [
 module.exports = {
     extends: [
         'eslint-config-airbnb-base',
+        'plugin:vue/vue3-recommended',
+        '@vue/typescript/recommended',
         ...rules,
     ],
     env: {

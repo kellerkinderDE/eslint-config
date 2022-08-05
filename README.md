@@ -2,8 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/%40kellerkinder%2Feslint-config.svg)](https://badge.fury.io/js/%40kellerkinder%2Feslint-config)
 
-This package provides the Kellerkinder ESLint configuration for vanilla
-JS. It is based on the [AirBnB Configuration](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
+This package provides the Kellerkinder ESLint configuration for JavaScript, TypeScript and Vue 3. It is based on the [AirBnB Configuration](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
 with slight alterations.
 
 ## Requirements
@@ -77,6 +76,18 @@ the `@kellerkinder/eslint-config/typescript` config instead, making it look like
 This configuration contains all the rules from the default configuration and extends it
 by some TypeScript-specific rules.
 
+## Vue 3
+If you are working with a Vue 3 application, you want to change your `.eslintrc.json` to extend
+the `@kellerkinder/eslint-config/vue` config instead, making it look like this:
+
+```json
+{
+    "extends": "@kellerkinder/eslint-config/vue"
+}
+```
+
+Using the Vue 3 configuration automatically assumes that you are using TypeScript as well.
+
 ## Troubleshooting
 
 ### `Linter` is not a constructor
@@ -94,7 +105,7 @@ these steps:
 4. Tag your commit with the respective version
 5. Create a Github release
 
-Now, Github Actions will build and publish the new version on npm.
+Now, GitHub Actions will build and publish the new version on npm.
 
 ## Changelog
 This project adheres to [Semantic Versioning](https://semver.org/). 
