@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.0] - 2022-08-06
+### Added
+- Import order and spacing configuration, to group imports by type
+
+### Changed
+- Made `eslint-plugin-import` a dependency instead of a peer dependency
+
 ## [2.1.0] - 2021-11-19
 ### Added
 - TypeScript support via extending `@kellerkinder/eslint-config/typescript`
@@ -71,7 +78,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Basic implementation based on AirBnB ESLint configuration
 
-[Unreleased]: https://github.com/kellerkinderDE/eslint-config/compare/2.1.0...HEAD
+[Unreleased]: https://github.com/kellerkinderDE/eslint-config/compare/2.2.0...HEAD
+[2.2.0]: https://github.com/kellerkinderDE/eslint-config/compare/2.1.0...2.2.0
 [2.1.0]: https://github.com/kellerkinderDE/eslint-config/compare/2.0.0...2.1.0
 [2.0.0]: https://github.com/kellerkinderDE/eslint-config/compare/1.1.0...2.0.0
 [1.1.0]: https://github.com/kellerkinderDE/eslint-config/compare/1.0.0...1.1.0

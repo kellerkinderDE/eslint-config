@@ -10,13 +10,12 @@ with slight alterations.
 This config has been developed and tested with the following requirements:
 * NodeJS >= 12
 * ESLint >= 7.2.0
-* ESLint Plugin Import: >= 2.22.1
 
 ## Installation
 In order to use this configuration, run the following scripts in your NodeJS project:
 
 ```bash
-npm i -D eslint eslint-plugin-import @kellerkinder/eslint-config
+npm i -D eslint @kellerkinder/eslint-config
 ```
 
 ## Usage

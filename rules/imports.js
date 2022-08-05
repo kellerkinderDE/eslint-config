@@ -6,5 +6,8 @@ module.exports = {
         'import/no-relative-parent-imports': 'off',
         'import/no-extraneous-dependencies': 'off',
         'import/prefer-default-export': 'off',
+        'import/order': ['error', {
+            'newlines-between': 'always',
+        }],
     },
 };
