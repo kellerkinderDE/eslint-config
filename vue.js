@@ -2,6 +2,8 @@ const vue = require.resolve('./rules/vue');
 
 module.exports = {
     extends: [
+        'plugin:vue/vue3-recommended',
+        '@vue/typescript/recommended',
         require.resolve('./typescript'),
         vue,
     ],

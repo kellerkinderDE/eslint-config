@@ -1,8 +1,11 @@
 {
   "name": "@kellerkinder/eslint-config",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Kellerkinder ESLint configuration",
   "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "keywords": [
     "kellerkinder",
     "k10r",
@@ -53,5 +56,10 @@
     "url": "https://github.com/kellerkinderDE/eslint-config/issues"
   },
   "homepage": "https://www.kellerkinder.de",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "eslint": "^8.21.0",
+    "jest": "^28.1.3"
+  }
 }
