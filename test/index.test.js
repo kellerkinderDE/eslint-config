@@ -1,10 +1,11 @@
-const config = require('..');
+import { describe } from 'vitest';
 
-const {
-    createEngine,
-    checkValidity,
+import config from '..';
+import {
     checkLintingErrors,
-} = require('./test-utils');
+    checkValidity,
+    createEngine,
+} from './test-utils';
 
 describe('base config', () => {
     const engine = createEngine(config);

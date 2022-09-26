@@ -1,10 +1,12 @@
-const config = require('../typescript');
+import { describe } from 'vitest';
 
-const {
+import config from '../typescript';
+
+import {
     createEngine,
     checkValidity,
     checkLintingErrors,
-} = require('./test-utils');
+} from './test-utils';
 
 describe('base config', () => {
     const engine = createEngine(config);
