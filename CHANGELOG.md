@@ -13,9 +13,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 - Unit tests are now based on Vitest and no longer break Github Actions
 
-### Fixed
-- Vue configurations inside the base configuration now properly reside in the Vue configuration only
-
 ## [3.1.0] - 2022-08-13
 ### Added
 - Unit test for configuration validity
