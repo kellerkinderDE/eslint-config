@@ -88,6 +88,15 @@ the `@kellerkinder/eslint-config/vue` config instead, making it look like this:
 
 Using the Vue 3 configuration automatically assumes that you are using TypeScript as well.
 
+## Testing
+This project features basic configuration tests using Vitest.
+Tests are automatically execute on push and before publishing.
+To execute the tests manually, use the following command:
+
+```bash
+npm test
+```
+
 ## Troubleshooting
 
 ### `Linter` is not a constructor
